@@ -3,6 +3,11 @@
         path = ~/.gitconfig.local
 [hub]
         protocol = https
+[user]
+        name = Tamer Mohammed Abdul-Radi
+        email = tamer@abdulradi.com
+[credential]
+        helper = osxkeychain
 [alias]
         co = checkout
         promote = !$ZSH/bin/git-promote
